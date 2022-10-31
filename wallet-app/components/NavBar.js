@@ -29,9 +29,11 @@ function NavBar() {
           <button className=" hidden lg:block text-xl font-normal ">
             Start The Course
           </button>
-          <button className="bg-lightblack text-white px-5 py-2 rounded-full text-lg font-real ">
-            Create Wallet
-          </button>
+          <Link href="/page3">
+            <button className="bg-lightblack text-white px-5 py-2 rounded-full text-lg font-real ">
+              Create Wallet
+            </button>
+          </Link>
         </div>
       </div>
     </>

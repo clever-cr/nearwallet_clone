@@ -109,7 +109,7 @@ function Content() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col relative items-center py-12 space-y-4  lg:flex-row-reverse lg:justify-between ">
+          <div className="flex flex-col relative items-center py-12- space-y-4  lg:flex-row-reverse lg:justify-between lg:bg-gradient-to-l -z-10 from-[#E9FAFB] via-[#effcfc] to-[#ffffff]">
             <div className=" w-1/3 z-10">
               <picture>
                 <img src="/z.png" alt="img" />
