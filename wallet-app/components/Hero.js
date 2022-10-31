@@ -1,3 +1,4 @@
+import Link from "next/link";
 function Hero() {
   return (
     <>
@@ -17,10 +18,12 @@ function Hero() {
             further growth within the NEAR ecosystem.
           </p>
         </div>
+        <a href="#clever">
+          <picture>
+            <img src="/arrow.svg" alt="arrow" />
+          </picture>
+        </a>
 
-        <picture>
-          <img src="/arrow.svg" alt="arrow" />
-        </picture>
         <h2 className="text-primary text-4xl max-w-xs lg:text-5xl font-real font-medium lg:max-w-md text-center items-center">
           Making your NEAR learning easy.
         </h2>

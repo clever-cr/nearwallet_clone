@@ -15,7 +15,7 @@ const data = [
 function Content() {
   return (
     <>
-      <div className="lg:px-52 flex  flex-col items-center ">
+      <div className="lg:px-52 flex  flex-col items-center " id="clever">
         <div className="flex  lg:flex-row  items-center justify-between  lg:space-x-12 flex-col-reverse">
           <div className="space-y-8 flex flex-col items-center">
             <div className="space-y-2 text-center pt-10">
